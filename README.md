@@ -2,8 +2,6 @@
 
 ### Education
 **M.S. in Computer Science** | Arizona State University, Tempe | Exp. May 2026
-**Relevant Coursework:** Data Mining, Statistical Machine Learning, DBMS Implementation, Knowledge Representation and Reasoning
-
 **BTech. in Computer Science and Engineering** | Indian Institute of Information Technology, Sri City, India | June 2024
 
 ### Technical Skills
