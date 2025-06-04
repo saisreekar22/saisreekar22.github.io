@@ -1,0 +1,36 @@
+name: Update Portfolio
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight
+  push:
+    branches: [ main ]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Install Ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama pull llama3.1
+      - name: Fetch and summarize projects
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python generate_portfolio.py
+          python summarize_projects.py
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add _data/projects.yml projects.json
+          git commit -m "Updated project summaries" || echo "No changes to commit"
+          git push
