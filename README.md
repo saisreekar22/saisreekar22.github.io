@@ -53,4 +53,4 @@ No GitHub projects available at the moment.
 
 ## Contact
 - **Email**: [sreekar.v22@gmail.com](mailto:sreekar.v22@gmail.com)  
-- **LinkedIn**: [linkedin.com/in/saisreekar](https://linkedin.com/in/sai-sreekar-V)
+- **LinkedIn**: [linkedin.com/in/sai-sreekar-v](https://linkedin.com/in/sai-sreekar-V)
