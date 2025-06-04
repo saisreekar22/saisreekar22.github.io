@@ -1,0 +1,26 @@
+projects:
+  - name: Lyrics-Conditioned-Neural-Melody-Generation
+    url: https://github.com/saisreekar22/Lyrics-Conditioned-Neural-Melody-Generation
+    description: No description
+    summary:
+      - No summary generated.
+  - name: News-Classification
+    url: https://github.com/saisreekar22/News-Classification
+    description: No description
+    summary:
+      - No summary generated.
+  - name: Pokedex
+    url: https://github.com/saisreekar22/Pokedex
+    description: No description
+    summary:
+      - No summary generated.
+  - name: Solar-Power-Forecasting-Using-Machine-Learning
+    url: https://github.com/saisreekar22/Solar-Power-Forecasting-Using-Machine-Learning
+    description: No description
+    summary:
+      - No summary generated.
+  - name: TicTacToe
+    url: https://github.com/saisreekar22/TicTacToe
+    description: My First Repo. Tic tac toe game in cpp
+    summary:
+      - No summary generated.
