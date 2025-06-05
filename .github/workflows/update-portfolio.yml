@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # Grant write access for pushing changes
+  contents: write  # Allow pushing changes
 
 jobs:
   update-portfolio:
