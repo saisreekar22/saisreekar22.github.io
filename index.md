@@ -1,13 +1,15 @@
+---
+title: Sai Sreekar Vankayalapati's Portfolio
+layout: default
+---
+
 <style>
 body {
   background-color: #f5f6fa;
 }
 </style>
 
----
-title: Sai Sreekar Vankayalapati's Portfolio
-layout: default
----
+
 
 # I'm a Data Scientist
 
