@@ -29,7 +29,7 @@ January 2024 - June 2024
 - **Link**: [View on GitHub]({{ project.url }})
 - **Highlights**:
   {% for bullet in project.summary %}
-  - {{ bullet }} %}
+  - {{ bullet }}
 {% endfor %}
 {% endfor %}
 {% else %}
