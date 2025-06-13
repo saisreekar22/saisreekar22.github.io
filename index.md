@@ -3,7 +3,7 @@ title: Sai Sreekar Vankayalapati's Portfolio
 layout: default
 ---
 
-# Sai Sreekar Vankayalapati
+# Data Scientist/Analyst
 
 
 ## About Me
