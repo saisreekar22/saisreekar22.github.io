@@ -5,7 +5,7 @@ layout: default
 
 <style>
 body {
-  background-color: #faedcd;
+  background-color: #f8f5f2;
 }
 </style>
 
