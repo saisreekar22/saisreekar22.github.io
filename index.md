@@ -5,11 +5,9 @@ layout: default
 
 <style>
 body {
-  background-color: #f5f6fa;
+  background-color: #faedcd;
 }
 </style>
-
-
 
 # I'm a Data Scientist
 
