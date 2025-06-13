@@ -3,8 +3,7 @@ title: Sai Sreekar Vankayalapati's Portfolio
 layout: default
 ---
 
-# Data Scientist/Analyst
-
+# I'm a Data Scientist
 
 ## About Me
 M.S. in Computer Science at Arizona State University (Exp. May 2026), specializing in data science. Passionate about leveraging machine learning to solve real-world problems like air quality forecasting and personalized music generation.
