@@ -55,6 +55,26 @@ No GitHub projects available at the moment.
 - **Tools**: Pandas, Scikit-learn, TensorFlow, Tableau, Streamlit
 - **Frameworks**: GC-LSTM, MusicGen, Librosa
 
+## Recent Blog Posts
+
+{% if site.data.medium.posts %}
+  {% assign recent_posts = site.data.medium.posts | slice: 0, 3 %}
+  <ul>
+  {% for post in recent_posts %}
+    <li>
+      <a href="{{ post.url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+      <br>
+      <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+      <p>{{ post.summary | strip_html | truncate: 120 }}</p>
+    </li>
+  {% endfor %}
+  </ul>
+  <a href="https://medium.com/@saisreekar22" target="_blank" rel="noopener"><strong>More →</strong></a>
+{% else %}
+  <p>No blog posts available.</p>
+{% endif %}
+
+
 ## Contact
 - **Email**: [sreekar.v22@gmail.com](mailto:sreekar.v22@gmail.com)
 - **LinkedIn**: [linkedin.com/in/saisreekar](https://linkedin.com/in/saisreekar)
